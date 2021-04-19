@@ -1,0 +1,2 @@
+# inetum
+Jenkins + maven
