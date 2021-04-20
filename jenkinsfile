@@ -1,0 +1,36 @@
+ualquier agente
+   // agent principal, agente1, agente2
+    agent any
+    
+    
+    //Fasses del trabajo
+    
+    stages {
+        
+        //Fases individuales
+        stage('Build'){
+            
+            //pasos de la fase
+            
+            steps{
+                
+                
+                echo 'Building.....'
+            }
+        }
+        
+            stage('Deploy'){
+            
+            //pasos de la fase
+            
+            steps{
+                
+                
+                echo 'Deploying.....'
+            }
+        }
+        
+    }
+    
+    
+}
