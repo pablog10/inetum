@@ -1,4 +1,7 @@
-ualquier agente
+//Pipeline declarativo
+pipeline{
+    
+    //ejecutar en cualquier agente
    // agent principal, agente1, agente2
     agent any
     
@@ -15,7 +18,7 @@ ualquier agente
             steps{
                 
                 
-                echo 'Building  GITTT.....'
+                echo 'Building.....'
             }
         }
         
@@ -26,7 +29,7 @@ ualquier agente
             steps{
                 
                 
-                echo 'Deploying GIT.....'
+                echo 'Deploying.....'
             }
         }
         
